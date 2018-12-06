@@ -13,8 +13,14 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "acquia/acquia-sdk-php-rest": "self.version"
+        "acquia/acquia-sdk-php-rest": "dev-test-symfony3@dev"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:acquia/acquia-sdk-php-rest.git"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Acquia\\Cloud\\Api": ""
